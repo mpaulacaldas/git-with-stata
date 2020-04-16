@@ -34,6 +34,8 @@ You can then go on to create a `.gitignore`, stage files and commit changes.
 - No automatic text complition with the `Tab` key, as you would in Git bash.
 - No syntax highlighting.
 
+Hola Nico!
+
 ## Here are the steps I took to create this little example
 
 1. Create Stata project in a directory, create `README.md` file and write down 
