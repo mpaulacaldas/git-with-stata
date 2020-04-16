@@ -3,3 +3,5 @@
 webuse lifeexp
 graph twoway scatter lexp gnppc
 graph export scatter.png
+
+display "Cambié esta linea"
