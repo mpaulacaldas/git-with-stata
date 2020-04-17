@@ -34,19 +34,17 @@ You can then go on to create a `.gitignore`, stage files and commit changes.
 - No automatic text complition with the `Tab` key, as you would in Git bash.
 - No syntax highlighting.
 
-Hola Nico!
-
 ## Here are the steps I took to create this little example
 
-1. Create Stata project in a directory, create `README.md` file and write down 
-   instructions. 
+1. Create Stata project in a directory, create `README.md` file and write down
+   instructions.
 2. Initialise Git repository.
-   
+
    ```
    ! git init .
    ```
 3. Stage `README.md` and `.stpr` file and commit.
-   
+
    ```
    ! git add README.md git-with-stata.stpr
    ! git commit -m "Initial commit :hatching_chick:"
@@ -57,7 +55,7 @@ Hola Nico!
    ! git add scatter*
    ! git commit -m "Add a little example script and figure"
    ```
-6. Go to GitHub, create a repo with the same name, without initialising a README. 
+6. Go to GitHub, create a repo with the same name, without initialising a README.
    Then locally add origin and push.
    ```
    ! git remote add origin https://github.com/mpaulacaldas/git-with-stata.git
