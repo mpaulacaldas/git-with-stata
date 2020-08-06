@@ -16,8 +16,8 @@ would have to run:
 shell git init .
 ```
 
-This will launch a Shell window and close it almost immediately. Although you may think 
-that nothing has changed, the git repo has been initialised. To confirm, type:
+This will launch a Shell window and close it almost immediately. Although it may look like
+nothing has changed, the git repo has been initialised. To confirm, type:
 
 ```
 dir .git/
