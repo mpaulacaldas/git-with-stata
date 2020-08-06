@@ -16,11 +16,15 @@ would have to run:
 shell git init .
 ```
 
-Which would return something like this:
+This will launch a Shell window and close it almost immediately. Although you may think 
+that nothing has changed, the git repo has been initialised. To confirm, type:
 
 ```
-#> Initialized empty Git repository in /path/to/your/repo
+dir .git/
 ```
+
+Which should display the contents of the hidden `.git/` directory that is present in all
+git repositories.
 
 You can then go on to create a `.gitignore`, stage files and commit changes.
 
@@ -31,7 +35,8 @@ You can then go on to create a `.gitignore`, stage files and commit changes.
 
 ### What are the main disadvantages?
 
-- No automatic text complition with the `Tab` key, as you would in Git bash.
+- No informative messages, that you would get by using another terminal, like Git Bash.
+- No automatic text complition with the `Tab` key.
 - No syntax highlighting.
 
 ## Here are the steps I took to create this little example
