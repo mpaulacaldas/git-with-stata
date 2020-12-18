@@ -54,6 +54,8 @@ You can then go on to create a `.gitignore`, stage files and commit changes.
    ! git add README.md git-with-stata.stpr
    ! git commit -m "Initial commit :hatching_chick:"
    ```
+   **Update**: It's [not a good idea to commit `.stpr` files](https://www.statalist.org/forums/forum/general-stata-discussion/general/1291117-wishlist-for-stata-15?p=1354726#post1354726).
+   
 4. Create little do file and run.
 5. Stage do file and figure and commit.
    ```
